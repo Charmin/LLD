@@ -44,7 +44,7 @@ public class Board {
 
     public void undo(final Player p) {
         if (p.getMoves().isEmpty()) {
-            throw new RuntimeException("There are no moved made by this player");
+            throw new RuntimeException("There are no moves made by this player");
         }
         int[] lasMove = p.getMoves().peek();
         board[lasMove[0]][lasMove[1]] = 0;

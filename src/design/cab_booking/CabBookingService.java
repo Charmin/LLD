@@ -1,4 +1,4 @@
-package interviews.microsoft.design.cab_booking;
+package design.cab_booking;
 
 public class CabBookingService {
 
